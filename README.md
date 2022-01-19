@@ -10,8 +10,12 @@ It is still possible to get ip blacklisted. Use at your own risk!
 
 In addition, you should have passowordless ssh privileges to lab machines.
 
-
 ### Usage
+```
+python3 yt-dl.py [OPTIONS]
+```
+
+### Options
     --data                           AudioSet data csv location
     --ontology                       AudioSet ontology json location
     --num-workers                    Number of downloading processes
